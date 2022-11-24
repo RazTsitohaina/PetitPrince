@@ -3,7 +3,7 @@ package main;
 import petitPrince.PetitPrince0;
 
 //import petitPrince.PetitPrince0;
-//import petitPrince.PetitPrince;
+import petitPrince.PetitPrince;
 
 
 public class Run3PetitsPrinces {
@@ -20,7 +20,7 @@ public class Run3PetitsPrinces {
 		System.out.println("Creation Petit Princes : \n");
 		
 		for (int i = 1; i <= 9; i++) {
-//			new PetitPrince("PP" + i);
+			PetitPrince p2 = new PetitPrince("PP" + i);
 		}
 	}
 	
@@ -28,7 +28,7 @@ public class Run3PetitsPrinces {
 		System.out.println("BEGIN : Petit Prince 2 \n");
 		
 		scenario0();
-//		scenario1();
+		scenario1();
 		
 		System.out.println("\nEND \n");
 	}
