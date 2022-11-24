@@ -1,6 +1,7 @@
 package petitPrince;
 
 import asteroide.Sujet;
+import asteroide.console.ConsoleJavaBoy;
 
 public class PetitPrince0 implements Sujet{
 	
