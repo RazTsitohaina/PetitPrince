@@ -7,10 +7,15 @@ public class PetitPrince0 implements Sujet{
 	
 	private String nom;
 	private int argent;
+	private ConsoleJavaBoy console;
 	
-	public PetitPrince0(String nom, int argent) {
+	private static int compteur = 0;
+	 
+	
+	public PetitPrince0() {
 		this.nom = nom;
 		this.argent = argent;
+		this.console = new ConsoleJavaBoy(this);
 	}
 	
 	public String getNom() {
@@ -22,6 +27,11 @@ public class PetitPrince0 implements Sujet{
 	}
     
 	public void run() {
+		this.console.parler("JE PARLE");
+		this.console.seDirigerVers(0);
+		
+		this.compteur+=1;
+		
 		
 	}
 
